@@ -1,0 +1,176 @@
+.sousnewse{
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    background-color: #FFFFFF;
+}
+
+.accord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagelefte{
+    height: 430px;
+    margin-left: 5rem;
+}
+
+.photohaute{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.telecomtraining{
+    display: flex;
+    width: 60vw;
+    margin-left: -4rem;
+}
+.imageflex{
+    display: flex;
+    gap: 10px;
+}
+.techniciens{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+.technicines{
+    background-color: rgb(233, 230, 230);
+    margin-top: 6rem;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageNokia{
+    width: 380px;
+    height: 170px;
+}
+.imageNokiabas{
+    width: 185px;
+    height: 110px;
+}
+.interlocu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.responsivenokia{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1.5rem;
+    gap: 10px;
+}
+.interlocuteur{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media all and (max-width: 768px) {
+    .sousnewse{
+        width: 100%;
+        height: auto;
+        padding-top: 8rem;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+      
+    
+ 
+
+   .imagelefte{
+    display: flex;
+    margin-left: -40px;
+   }
+   
+ 
+   .telecomtraining{
+    display: flex;
+    flex-direction: column;
+    margin-left: -11rem;
+    height: auto;
+    
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+    img{
+      width: 200px;
+      height: 150px;
+      margin-left: 1px;
+    }
+}
+.techniciens{
+     height: auto;
+     font-size: 12px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-left: 3rem;
+   }
+.interlocu{
+    margin-left: 20px;
+   }
+.technicines{
+   font-size: 12px;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(233, 230, 230);
+}
+.interlocuteur{
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.accord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    width: 100%;
+}
+.responsivenokia{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -5rem;
+}
+.imageNokia{
+    width: 300px;
+    height: 140px;
+}
+
+.imageNokiabas{
+    width: 145px;
+    height: 90px;
+}
+.date{
+   display: none;
+}
+.largeurletre{
+    display: none;
+}
+
+}
+

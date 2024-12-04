@@ -1,0 +1,32 @@
+@media all and (max-width: 768px) {
+    .bbc{
+        width: 100%;
+       font-size: 12px;
+       height: auto;
+       margin-top: -100px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+  
+        
+        h1{
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -40px;
+           }
+        .centrepecb{
+            margin-left: -40px;
+        }
+        span{
+            font-size:14px;
+        }
+
+        .techskill h1{
+           font-size: 14px;
+           margin-left: -40px;
+        }
+    }
+}

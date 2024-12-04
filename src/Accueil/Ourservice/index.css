@@ -1,0 +1,29 @@
+
+.imagegauche img{
+    height: 345px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.serviceCloude{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+@media all and (max-width: 768px) {
+    .imagegauche img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+    }
+    .serviceCloude{
+        display: flex;
+        align-items: center;
+        width: 70vw;
+        margin-bottom: 1rem;
+    }
+    
+   
+}

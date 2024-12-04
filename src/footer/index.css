@@ -1,0 +1,18 @@
+.footerLogo{
+    width: 200px;
+    height: 250px;
+}
+@media all and (max-width: 768px) {
+    .footerLogo{
+       display: none;
+    }
+    .footer h2:nth-last-child(2){
+        display: none;
+    }
+    .footerrigth{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+    }
+}

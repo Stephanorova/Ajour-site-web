@@ -1,0 +1,121 @@
+.feature{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.contante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.contante h1{
+   font-size: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.alignement{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+.featureCadre{
+    width: 230px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 1px 7px 5px 1px rgba(100, 100, 100, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+.featureCadre label{
+  width: 40px;
+  height: 40px;
+  background-color: brown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.featureCadre span{
+   font-size: 18px;
+   text-align: center;
+   justify-content: center;
+   color: #f9c231;
+}
+.featureCadre p{
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+@media all and (max-width: 768px) {
+    .feature{
+        width: 100%;
+        height: 220vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        flex-direction: column;
+    }
+    .contante{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+    .contante h1{
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+    .alignement{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+    .featureCadre{
+        width: 230px;
+        height: 250px;
+        background-color: #ffffff;
+        box-shadow: 1px 7px 5px 1px rgba(100, 100, 100, 0.3);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        gap: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+    }
+    .featureCadre label{
+        width: 30px;
+        height: 30px;
+        background-color: brown;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+    .featureCadre span{
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        color: #f9c231;
+     }
+     .featureCadre p{
+         text-align: center;
+         justify-content: center;
+         font-size: 12px;
+     }
+}

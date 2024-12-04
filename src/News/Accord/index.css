@@ -1,0 +1,115 @@
+.accorde{
+    width: 100%;
+    height: 120vh;
+    background-color: aliceblue;
+    padding: 30px;
+    margin-top: 12rem;
+}
+.accorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 13rem;
+    padding: 0 230px;
+}
+.tontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+    gap: 5px;
+    
+}
+.titredate{
+    width: 400px;
+    height: 40px;
+    background-color: brown;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.training{
+    font-size: 20px;
+    width: 430px;
+    margin-top: 10px;
+    color: blue;
+}
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+.droite img{
+    width: 400px;
+}
+
+@media all and (max-width: 768px) {
+    .accorde{
+        width: 100%;
+        height: 150vh;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .accorder{
+        display: flex;
+        justify-content: center;
+        align-items: center;flex-direction: column;
+        gap: 1px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .tontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .titredate{
+        width: 250px;
+        height: 40px;
+        background-color: brown;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+    .training{
+        font-size: 20px;
+        width: 250px;
+        margin-top: 10px;
+        color: blue;
+    }
+    .paragraphe{
+        display: flex;
+        flex-direction: column;
+        width:280px;
+        gap: 10px;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gray;
+    }
+    .accorder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        margin-top: 1rem;
+    }
+    .droite img{
+        width: 250px;
+    }
+}

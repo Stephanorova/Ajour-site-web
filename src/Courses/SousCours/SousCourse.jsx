@@ -171,7 +171,7 @@ const SousCourse = () => {
     </Slider>
     <div className="calandar">
         <div className="nosCalandrier">
-           <h1>Traning Calandar</h1>
+           <h1>Training Calendar</h1>
               <div className="cadre">
                 <div className="cadreLeft">
                    <h2>2024</h2>
